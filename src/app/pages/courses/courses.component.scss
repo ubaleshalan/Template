@@ -4,16 +4,17 @@
 }
 img{
 	height:222px;
-	width:393px;
+	width:253px;
 	border: 5px solid #e7e7e7;
+	overflow:hidden;
+	transition: all 1s ease-out;
 }
 img:hover{
-	transition: all 3s ease;
+	transform: scale(1.2);
 	max-width: 100%;
-	transform: scale(2,3);
 }
 h1{
-	color:white;
+	color:#e7185c;
 	text-align:center;
 	margin-top:20px;
 	padding-top:99px;
@@ -29,6 +30,9 @@ h1{
 	padding-right: 102px;
 padding-left: 0;
 }
+.container{
+	max-width: 1019px;
+}
 h5{
 	font-size:15px;
 	color:#797979;
@@ -38,5 +42,7 @@ h5{
 }
 h3{
 	text-align:center;
-	color:white;
+	color:#6c7279;
+	margin-bottom:35px;
+	margin-top:18px;
 }

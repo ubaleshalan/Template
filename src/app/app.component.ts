@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +9,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 	
-	constructor(private _http: HttpClient)
+	 // constructor(private _http: HttpClient)
   title = 'app';
 }
