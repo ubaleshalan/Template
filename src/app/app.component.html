@@ -1,0 +1,73 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="body" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-expand-sm">
+		  <!-- Brand/logo -->
+		  <a class="navbar-brand" href="#">
+		  <img src="../assets/img/logo.png" alt="logo" class="img1">
+		  </a>
+		  
+		  <!-- Links -->
+		  <ul class="navbar-nav nav">
+			<li class="nav-item">
+			  <a class="nav-link" routerLink="/Home"><h4>Home</h4></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" routerLink="AboutUs"><h4>About Us</h4></a> 
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" routerLink="Courses"><h4>Courses</h4></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" routerLink="OurTeam"><h4>Our Team</h4></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" routerLink="ContactUs"><h4>Contact Us</h4></a>
+			</li>
+		  </ul>
+	</nav>
+
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <img [src]="../assets/img/12.png" alt="first slide">
+    <div class="carousel-caption">
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="../assets/img/14.jpg" alt="second slide">
+    <div class="carousel-caption">
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="../assets/img/12.jpeg" alt="third slide">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="../assets/img/13.jpg" alt="Forth slide">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <img [src]="../assets/img/15.jpg" alt="fifth  slide">
+    <div class="carousel-caption">
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+
+	<!-- <div class="fixed"> -->
+	<!-- <a href="#" class="glyphicon glyphicon-user"> Register Now</a>  -->
+
+	<!-- </div> -->
+	<router-outlet></router-outlet>
+</div>
