@@ -4,7 +4,7 @@ $col3:#787878;
 
 .body{
 	background-color:black;
-	margin-top:-20px;
+	padding-top:10px;
 }
 img{
 	height:222px;
@@ -20,7 +20,7 @@ img:hover{
 h1{
 	color:#e7185c;
 	text-align:center;
-	margin-top:20px;
+	margin-top:-60px;
 	padding-top:99px;
 }
 .col-lg-3{
@@ -32,7 +32,8 @@ h1{
 }
 .pan{
 	padding-right: 102px;
-padding-left: 0;
+	padding-left: 0;
+	margin-top: 75px;
 }
 .container{
 	max-width: 1019px;
@@ -58,17 +59,15 @@ h3{
 }
 .body2{
 	background-color:#0c0c0c;
-	height:1000px;
+	height:900px;
 	margin-top:0px;
 }
 .middle{
 	/*margin-top:110px;*/
 	border:5px solid black;
 	background-color:#000000;
-	height:150px;
-	width:540px;
-	margin-right:25px;
 	color:#080808;
+	padding: 20px;
 
 }
 .computer{
@@ -77,7 +76,7 @@ h3{
 }
 .body3{
 	background-color:#101010;
-	height:1200px;
+	height:1300px;
 	margin-top:75px;
 }
 .contact{
@@ -108,9 +107,7 @@ margin-left:25px;
 .second{
 margin-top:25px;
 }
-.bd{
-margin-top:75px;
-}
+
 h4{
 	text-align:center;
 	color:white;
@@ -119,6 +116,14 @@ h4{
 .clr{
 color:#a5a5a5;
 margin-left: 85px;
+}
+.clr1{
+color:#a5a5a5;
+margin-left: 120px;
+}
+.clr2{
+color:#a5a5a5;
+margin-left: 50px;
 }
 .lastrow{
 border:5px solid black;
@@ -130,4 +135,7 @@ border:5px solid black;
 .animate:hover { 
     background-color:#0c0c0c;
 
+}
+.mobile{
+margin-left: -68px;
 }
