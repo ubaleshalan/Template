@@ -12,7 +12,7 @@ import { OurTeamComponent } from './pages/our-team/our-team.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 
 const appRoutes: Routes = [
-	{ path: 'Home',component : HomeComponent },
+	{ path: '',component : HomeComponent },
 	{ path: 'AboutUs',component : AboutUsComponent },
 	{ path: 'Courses',component : CoursesComponent },
 	{ path: 'OurTeam',component : OurTeamComponent },
